@@ -3,11 +3,13 @@ h1  {
     color: white;
     padding-top: 20px;
     margin: 0;
+    margin-bottom: 15px;
     font-weight: bold;
 }
 header  {
     margin-bottom: 20px;
 }
+
 body    {
     width: 100%;
 }
@@ -28,6 +30,13 @@ a.uk-icon{
 }
 a.uk-icon:hover{
     color: #E6C7C2;
+}
+.uk-button-default{
+    border: none;
+    border-top: 0.5px solid #e5e5e5;
+}
+.uk-button-default.current{
+    border-top: 1px solid #e5e5e5;
 }
 
 /* Portfolio */
