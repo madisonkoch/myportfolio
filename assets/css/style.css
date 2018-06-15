@@ -1,0 +1,60 @@
+/* Global */
+h1  {
+    color: white;
+    padding-top: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+header  {
+    margin-bottom: 20px;
+}
+body    {
+    width: 100%;
+}
+.desk-coffee {
+    background: url("../images/desk-coffee.jpg") no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(0);
+}
+main    {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.uk-icon{
+    color:#38332D;
+}
+a.uk-icon:hover{
+    color: #E6C7C2;
+}
+
+/* Portfolio */
+.uk-card-body{
+    padding: 15px;
+}
+.uk-box-shadow-large {
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.6);
+}
+svg {
+    height: 30px;
+    width: 30px;
+}
+a.less-left svg{
+    margin-top: 0;
+    margin-bottom: -5px;
+    margin-right: -5px;
+}
+svg{
+    color: #38332D;
+    margin-top:-40px;
+    margin-right: 10px;
+}
+a.less-left svg:hover,
+svg:hover,{
+    color: #e6c7c2;
+}
+.uk-card-title{
+    margin-bottom: 5px;
+}
