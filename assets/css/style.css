@@ -12,6 +12,7 @@ header  {
 
 body    {
     width: 100%;
+    overflow: hidden;
 }
 .desk-coffee {
     background: url("../images/desk-coffee.jpg") no-repeat;
